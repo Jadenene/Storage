@@ -443,98 +443,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Input Verified",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Input Verified"
-            ],
-            "id": "22c83275-597f-42a3-8f76-5a44d53efa80",
-            "source": {
-              "cell": "9ac4682c-2b4a-4c14-a2de-225027c054a8",
-              "port": "eea5e7d1-6dce-4f84-a74e-f08560c9d0bb"
-            },
-            "target": {
-              "cell": "d24eb3c9-9350-49e4-b951-9c21f8b92fc8",
-              "port": "eea5e7d1-6dce-4f84-a74e-f08560c9d0bb"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Perform Business\nLogic Checks",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Perform Business\nLogic Checks"
-            ],
-            "id": "25687e14-7864-498c-9d2b-632fd8ce56b8",
-            "source": {
-              "x": 20,
-              "y": 350
-            },
-            "target": {
-              "cell": "9ac4682c-2b4a-4c14-a2de-225027c054a8",
-              "port": "3bae3ba2-56f6-421d-bf10-cd36eadf97e1"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Payment Request",
               "description": "",
               "outOfScope": false,
@@ -772,6 +680,58 @@
               {
                 "x": 20,
                 "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Input Verified &\nPerform Business Checks",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Input Verified &\nPerform Business Checks"
+            ],
+            "id": "22c83275-597f-42a3-8f76-5a44d53efa80",
+            "source": {
+              "cell": "9ac4682c-2b4a-4c14-a2de-225027c054a8",
+              "port": "eea5e7d1-6dce-4f84-a74e-f08560c9d0bb"
+            },
+            "target": {
+              "cell": "d24eb3c9-9350-49e4-b951-9c21f8b92fc8",
+              "port": "eea5e7d1-6dce-4f84-a74e-f08560c9d0bb"
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 200
               }
             ]
           },
