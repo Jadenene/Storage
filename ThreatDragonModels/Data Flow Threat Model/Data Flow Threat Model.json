@@ -1545,7 +1545,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Authorizes & \nAuthenticates Barista",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1559,7 +1559,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Authorizes & \nAuthenticates Barista"
             ],
             "id": "4c9aadb2-c88d-4cc5-a45b-25c8edc772e3",
             "source": {
