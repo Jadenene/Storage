@@ -2804,9 +2804,19 @@
           }
         ],
         "description": "Manager Data Flow"
+      },
+      {
+        "id": 3,
+        "title": "Admin",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.1-RC1",
+        "cells": [],
+        "description": "Administrator Data Flow"
       }
     ],
-    "diagramTop": 3,
+    "diagramTop": 4,
     "reviewer": "",
     "threatTop": 25
   }
