@@ -1974,7 +1974,7 @@
         "cells": [
           {
             "position": {
-              "x": 240,
+              "x": 170,
               "y": 220
             },
             "size": {
@@ -2215,7 +2215,7 @@
           {
             "position": {
               "x": 590,
-              "y": 540
+              "y": 600
             },
             "size": {
               "width": 150,
@@ -2335,104 +2335,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Logs in as Manager",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Logs in as Manager"
-            ],
-            "id": "1666387c-aa8a-4b67-bfad-58f2da58a264",
-            "source": {
-              "x": 360,
-              "y": 280
-            },
-            "target": {
-              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
-              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "View Sales Report",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "View Sales Report"
-            ],
-            "id": "73a39995-59e6-4a6d-bea9-768fc0857fd4",
-            "source": {
-              "x": 340,
-              "y": 330
-            },
-            "target": {
-              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
-              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
-            },
-            "vertices": [
-              {
-                "x": 500,
-                "y": 330
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -2677,6 +2579,197 @@
               {
                 "x": 500,
                 "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "e091cec5-3458-4d79-ae7b-f17af43ca207",
+            "source": {
+              "x": 430,
+              "y": 360
+            },
+            "target": {
+              "x": 910,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logs in as Manager",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Logs in as Manager"
+            ],
+            "id": "1666387c-aa8a-4b67-bfad-58f2da58a264",
+            "source": {
+              "cell": "44035c9b-01e1-4c12-8374-79041fca823a",
+              "port": "92a0b272-6e9f-4de6-bac8-d1789e05aa12"
+            },
+            "target": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "View Sales Report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "View Sales Report"
+            ],
+            "id": "73a39995-59e6-4a6d-bea9-768fc0857fd4",
+            "source": {
+              "cell": "44035c9b-01e1-4c12-8374-79041fca823a",
+              "port": "b5907300-d49c-40eb-aca5-307235b2f7ea"
+            },
+            "target": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "651194a4-1503-47a1-83bd-d2a8b3d6666c",
+            "source": {
+              "x": 490,
+              "y": 580
+            },
+            "target": {
+              "x": 850,
+              "y": 580
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 540
               }
             ]
           }
