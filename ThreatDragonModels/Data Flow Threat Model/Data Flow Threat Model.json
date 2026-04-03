@@ -1993,6 +1993,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2076,7 +2077,6 @@
               ]
             },
             "id": "44035c9b-01e1-4c12-8374-79041fca823a",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
@@ -2094,7 +2094,7 @@
           },
           {
             "position": {
-              "x": 550,
+              "x": 590,
               "y": 220
             },
             "size": {
@@ -2113,6 +2113,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2196,7 +2197,6 @@
               ]
             },
             "id": "84550727-652b-4520-aa19-30bde41ec2cc",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application\nServer",
@@ -2214,8 +2214,8 @@
           },
           {
             "position": {
-              "x": 550,
-              "y": 530
+              "x": 590,
+              "y": 540
             },
             "size": {
               "width": 150,
@@ -2236,6 +2236,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2319,7 +2320,6 @@
               ]
             },
             "id": "1d5e5bd9-7a67-4e9b-ad42-2b07cb7ed671",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -2335,6 +2335,304 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logs in as Manager",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Logs in as Manager"
+            ],
+            "id": "1666387c-aa8a-4b67-bfad-58f2da58a264",
+            "source": {
+              "x": 360,
+              "y": 280
+            },
+            "target": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "View Sales Report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "View Sales Report"
+            ],
+            "id": "73a39995-59e6-4a6d-bea9-768fc0857fd4",
+            "source": {
+              "x": 340,
+              "y": 330
+            },
+            "target": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authorizes & Authenticates Manager",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Authorizes & Authenticates Manager"
+            ],
+            "id": "87c7583d-ee0f-41ec-97ba-f1e637e332cb",
+            "source": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "ea32a4b7-34f2-4266-b5ae-2ee352a75340"
+            },
+            "target": {
+              "cell": "44035c9b-01e1-4c12-8374-79041fca823a",
+              "port": "ea32a4b7-34f2-4266-b5ae-2ee352a75340"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Queries for\nSales Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Queries for\nSales Data"
+            ],
+            "id": "7069e853-674f-4ff2-bd14-64c7511a9ac0",
+            "source": {
+              "x": 660,
+              "y": 340
+            },
+            "target": {
+              "cell": "1d5e5bd9-7a67-4e9b-ad42-2b07cb7ed671",
+              "port": "93ea1902-303c-4511-ba53-ac801d6fe81d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sales Data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sales Data"
+            ],
+            "id": "23453200-c59d-4004-b548-df8cdce02354",
+            "source": {
+              "x": 740,
+              "y": 580
+            },
+            "target": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "92a0b272-6e9f-4de6-bac8-d1789e05aa12"
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 420
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Basic Sales Report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Basic Sales Report"
+            ],
+            "id": "b2901569-6cfe-4d31-8964-ba700327d5ec",
+            "source": {
+              "cell": "84550727-652b-4520-aa19-30bde41ec2cc",
+              "port": "ea32a4b7-34f2-4266-b5ae-2ee352a75340"
+            },
+            "target": {
+              "cell": "44035c9b-01e1-4c12-8374-79041fca823a",
+              "port": "46dc63e0-1e46-4da1-b343-1090578e92f1"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 130
+              },
+              {
+                "x": 240,
+                "y": 150
+              }
+            ]
           }
         ],
         "description": "Manager Data Flow"
