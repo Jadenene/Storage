@@ -1897,9 +1897,19 @@
           }
         ],
         "description": "Barista Data Flow"
+      },
+      {
+        "id": 2,
+        "title": "Manager",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.1-RC1",
+        "cells": [],
+        "description": "Manager Data Flow"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 17
   }
