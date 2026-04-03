@@ -2642,7 +2642,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Generict Trust Boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -2650,7 +2650,7 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Generict Trust Boundary"
             ],
             "id": "a3839c11-3bde-42d4-89a2-bb12f47132f1",
             "source": {
@@ -2660,7 +2660,25 @@
             "target": {
               "x": 570,
               "y": 420
-            }
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 70
+              },
+              {
+                "x": 500,
+                "y": 190
+              },
+              {
+                "x": 500,
+                "y": 170
+              },
+              {
+                "x": 500,
+                "y": 310
+              }
+            ]
           }
         ],
         "description": "Manager Data Flow"
