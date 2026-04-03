@@ -1894,6 +1894,72 @@
                 "y": 510
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Logs in as Barista",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Logs in as Barista"
+            ],
+            "id": "28685007-3f3d-4e71-8e8a-770ee5817b34",
+            "source": {
+              "x": 250,
+              "y": 320
+            },
+            "target": {
+              "cell": "7958769b-cea6-45d8-ab69-85dc74db8ed9",
+              "port": "15b4c6e5-60b4-4fc3-aca0-f2304f677451"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 340
+              },
+              {
+                "x": 490,
+                "y": 340
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "Barista Data Flow"
