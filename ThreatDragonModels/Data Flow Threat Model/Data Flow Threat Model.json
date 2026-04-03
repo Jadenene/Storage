@@ -1126,7 +1126,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Barista\nBrowser Client"
+                "text": "Browser Client"
               },
               "body": {
                 "stroke": "red",
@@ -1222,7 +1222,7 @@
             "id": "d44d3359-7790-4c48-b217-4a3164da35a5",
             "data": {
               "type": "tm.Process",
-              "name": "Barista\nBrowser Client",
+              "name": "Browser Client",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
