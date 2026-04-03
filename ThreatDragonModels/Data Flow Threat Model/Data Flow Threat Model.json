@@ -1126,7 +1126,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Browser Client"
+                "text": "Barista\nBrowser Client"
               },
               "body": {
                 "stroke": "#333333",
@@ -1222,7 +1222,7 @@
             "id": "d44d3359-7790-4c48-b217-4a3164da35a5",
             "data": {
               "type": "tm.Process",
-              "name": "Browser Client",
+              "name": "Barista\nBrowser Client",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1233,6 +1233,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
